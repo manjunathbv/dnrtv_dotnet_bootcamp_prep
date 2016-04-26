@@ -4,7 +4,7 @@ require 'fileutils'
 require 'erb'
 require 'configatron'
 
-Dir.glob("build/support/**/*.rb").each do|item|
+Dir.glob("/build/support/**/*.rb").each do|item|
   require File.expand_path(item)
 end
 
